@@ -7,15 +7,15 @@ A Console RPG style game in C, with minimal AI/Bot control by SiteRaw Projects h
 
 ### Rules
 
-- units can move around the map and perform actions: charging into combat, shooting (if they have a ranged weapon), magic (if know spells)
+- units can move around the map and perform actions: charging, combat, shooting (needs ranged weapon), magic (must know spells)
 - some units have access to shooting, some have access to magic, some are melee only... see the (editable) CSV file
-- CSV file for units is formatted as follows: unit_name, movement, combat_value, strength, toughness, wounds, is_magic, weapon, team, x, y
+- CSV unit file is formatted as follows: unit_name, movement, combat_value, strength, toughness, wounds, is_magic, weapon, team, x, y
 - first team to get wiped out (no units left) loses
 - remember to *backup* CSV file with units if you plan on modifying it
 
 #### Advanced rules
 
-- one turn ends when every unit has performed all their actions. Unit order is simply A, B, C, D... the first unit line in the CSV, becomes unit A.
+- one turn ends when every unit has performed all their actions. Unit order is simply A, B, C, D... first unit line in CSV becomes unit A.
 - Actions are (in order): movement, magic, shooting, combat resolution.
 - Units that charge always go first in combat, otherwise unit order is respected.
 - Shooting and magic doesn't impede combat.
