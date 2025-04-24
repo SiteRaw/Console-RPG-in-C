@@ -5,7 +5,7 @@ A console RPG with fully customizable units in C.
 
 A Console RPG style game in C, with minimal AI/Bot control by SiteRaw Projects https://www.siteraw.com
 
-### Rules
+## Rules
 
 - units can move around the map and perform actions: charging, combat, shooting (needs ranged weapon), magic (must know spells)
 - some units have access to shooting, some have access to magic, some are melee only... see the (editable) CSV file
@@ -13,12 +13,14 @@ A Console RPG style game in C, with minimal AI/Bot control by SiteRaw Projects h
 - first team to get wiped out (no units left) loses
 - remember to *backup* CSV file with units if you plan on modifying it
 
-#### Advanced rules
+### Advanced rules
 
 - one turn ends when every unit has performed all their actions. Unit order is simply A, B, C, D... first unit line in CSV becomes unit A.
 - Actions are (in order): movement, magic, shooting, combat resolution.
 - Units that charge always go first in combat, otherwise unit order is respected.
 - Shooting and magic doesn't impede combat.
+
+#### FAQ
 
 - **How are to hit rolls calculated?** needed_roll = 7 - attacker_combat_value;
 - **How are to wound rolls calculated?** needed_roll = 4 - attacker_strength + defender_toughness;
@@ -33,7 +35,7 @@ A Console RPG style game in C, with minimal AI/Bot control by SiteRaw Projects h
 - **Gore Blades**: Cost (7), Target (Ally), Effect (+1 strength)
 - **Bestial Rampage**: Cost(10), Target (Enemy), Effect (1D6 hits + move in a random direction)
 
-### Languages
+## Languages
 
 - C
 - .csv
