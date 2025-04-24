@@ -35,7 +35,7 @@ A Console RPG style game in C, with minimal AI/Bot control by SiteRaw Projects h
 
 ### Languages
 
-- [https://www.siteraw.com/cpp](C in Console)
+- C (see https://www.siteraw.com/cpp)
 - .csv
 
 ### Future updates?
