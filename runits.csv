@@ -1,0 +1,6 @@
+unit_name,movement,combat_value,strength,toughness,wounds,is_magic,weapon,team,x,y
+Aragore the Beast King,3,4,5,7,7,0,Bestial Blades,0,0,1
+Bestial Priest Lord,3,3,4,4,5,1,Bestial Staff,0,1,0
+Crossbow Champion,3,4,6,7,13,0,Crossbow of Death,1,7,7
+Dread Harrower,4,3,4,6,7,0,Bestial Staff,1,6,7
+Elite Beast Archer,3,3,3,5,5,0,Bestial Bow,0,2,0
