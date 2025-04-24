@@ -20,11 +20,11 @@ A Console RPG style game in C, with minimal AI/Bot control by SiteRaw Projects h
 - Units that charge always go first in combat, otherwise unit order is respected.
 - Shooting and magic doesn't impede combat.
 
-**How are to hit rolls calculated?** needed_roll = 7 - attacker_combat_value;
-**How are to wound rolls calculated?** needed_roll = 4 - attacker_strength + defender_toughness;
-**What are critical hits?** To hit rolls of 6 produce 2 hits rather than 1 (only certain weapons).
-**What is lifesteal?** To hit rolls of 6 heal 1 wound for the attacker (only certain weapons).
-**How do "spells" work?** Two dice are rolled, the sum must be >= to the cost.
+- **How are to hit rolls calculated?** needed_roll = 7 - attacker_combat_value;
+- **How are to wound rolls calculated?** needed_roll = 4 - attacker_strength + defender_toughness;
+- **What are critical hits?** To hit rolls of 6 produce 2 hits rather than 1 (only certain weapons).
+- **What is lifesteal?** To hit rolls of 6 heal 1 wound for the attacker (only certain weapons).
+- **How do "spells" work?** Two dice are rolled, the sum must be >= to the cost.
 
 #### Spell List
 
